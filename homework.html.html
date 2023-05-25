@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Timezones 🕑</title>
+  </head>
+  <body>
+    <h1>What time is it in..?</h1>
+    <div>
+      <label for="timezones" id="label">
+        Which city would you like to know the time?</label
+      ><br />
+      <br />
+      <select id="timezones">
+        <option value="">Select a city</option>
+        <option value="Europe/Amsterdam">Amsterdam, The Netherlands</option>
+        <option value="Africa/Addis_Ababa">Addis Ababa, Ethiopia</option>
+        <option value="Asia/Jakarta">Jakarta, Indonesia</option>
+      </select>
+      <p id="current-time">It is</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
