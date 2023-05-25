@@ -1,0 +1,26 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+div {
+  text-align: center;
+  display: block;
+}
+
+label {
+  margin: 10px;
+}
+select {
+  padding: 5px;
+  border: 2px solid blueviolet;
+  border-radius: 4px;
+}
+
+#current-time {
+  color: white;
+}
